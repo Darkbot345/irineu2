@@ -696,7 +696,7 @@ keepalive 10 20
 float
 auth-user-pass
 EOF
-elif [[ &method_opt = 3 ]]; then
+elif [[ $method_opt = 3 ]]; then
 cat > /etc/openvpn/client-common.txt <<EOF
 client
 nobind
