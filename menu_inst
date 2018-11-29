@@ -1229,7 +1229,7 @@ if [ -d '/usr/local/ddos' ]; then
 else
 	mkdir /usr/local/ddos
 fi
-wget -q -O /usr/local/ddos/ddos.conf https://notabug.org/gandalf357/vegeta/raw/master/DDOS/ddos.conf -o /dev/null
+wget -q -O /usr/local/ddos/ddos.conf https://raw.githubusercontent.com/Darkbot345/irineu/master/ddos.conf -o /dev/null
 wget -q -O /usr/local/ddos/LICENSE http://www.inetbase.com/scripts/ddos/LICENSE -o /dev/null
 wget -q -O /usr/local/ddos/ignore.ip.list http://www.inetbase.com/scripts/ddos/ignore.ip.list -o /dev/null
 wget -q -O /usr/local/ddos/ddos.sh http://www.inetbase.com/scripts/ddos/ddos.sh -o /dev/null
